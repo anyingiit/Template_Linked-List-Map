@@ -109,6 +109,9 @@ public:
 //        }
 //        return *res;
 //    }
+
+
+private:
     template<typename K, typename V>
     class MyMapNode{
     public:
@@ -128,7 +131,6 @@ public:
 //    }
     };
 
-private:
     MyMapNode<Key, Value> *dummyHead;
     int size;
 
